@@ -1,3 +1,3 @@
-title LopeSelfBot by atomkern
-node -r esm index.js
+title LopeSelfBot v1 by atomkern
+node index.js
 pause
