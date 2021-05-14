@@ -1,9 +1,15 @@
 {
+  "name": "atom-self",
+  "version": "1.0.0",
+  "description": "nul",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "atomkern",
+  "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.1",
     "esm": "^3.2.25",
-    "fs": "^0.0.1-security",
-    "moment": "^2.29.1",
     "v11-discord.js": "^11.5.5"
   }
 }
