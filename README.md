@@ -1,16 +1,19 @@
 # Lope SelfBot
 Je n'en peux plus, je craque, en plus ils ont vu mon trou... et toi, tu as vu mes photos ?
+## Merci de prendre la v2 ! (beaucoup mieux)
 
-#### Ce SelfBot permet de spam des photos de lope75015 et de fabriceledechet, inclus également un systeme de logs (log les serveurs, emote, ban, etc...)
+#### Ce SelfBot permet de spam des photos de lope75015 et de fabriceledechet
 
-Mettez votre token dans le config.json (mettre le token a la place de TOKEN_ICI_MASSI)
-Vous avez également la possibilité de changer le prefix du LopeSelfBot
+Mettez votre token dans l'index.js (tout en bas a place de TOKEN_ICI_MASSI)
 
 ## Vous avez besoin de Node.JS
 
-###### Windows : Ouvrez le run.bat fourni dans la repo 😳
+## Installation des modules :
+```
+npm install v11-discord.js
+```
 
 ## Lancement du SelfBot :
 ```
-node -r esm index.js
+node index.js
 ```
