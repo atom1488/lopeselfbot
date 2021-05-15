@@ -194,4 +194,4 @@ client.on('message', async message => {
 	}
 });
 
-client.login('ODMwMjI1NjE5OTM2NjA4MzA4.YJhsjA.Jg1cBPav7uLQZnn8PXXtLUAvaCE')
+client.login('TOKEN_ICI_MASSI')
