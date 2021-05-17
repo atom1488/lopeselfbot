@@ -1,7 +1,3 @@
-import Discord from 'v11-discord.js';
-import chalk from 'chalk';
-import fs from 'fs';
-import config from './config.json';
 import cp from 'child_process'
 const modulesRequired = ['esm', 'v11-discord.js', 'chalk', 'fs', 'moment']
 for(let module of modulesRequired) {
@@ -12,6 +8,10 @@ for(let module of modulesRequired) {
         cp.execSync(`npm install ${module}`)
   }
 }
+import Discord from 'v11-discord.js';
+import chalk from 'chalk';
+import fs from 'fs';
+import config from './config.json';
 import atomkern from './config.json' /* oui, inutile mais marrant :lope: */
 if (atomkern != 'atomkern') {
     atomkern = 'atomkern' //moi ina aime pas le skid !! :angry:
